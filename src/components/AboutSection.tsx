@@ -47,7 +47,7 @@ const AboutSection = () => {
             </div>
             
             <AnimatedText
-              text="Hello! I'm Svayam Kapadia, a Computer Science student at IIIT Pune with a passion for building exceptional web applications and solving complex problems."
+              text="Hello! I'm Shashank Dwivedi, a Computer Science student at GL Bajaj Institute with a passion for building exceptional web applications and solving complex problems."
               className="mb-4 text-lg font-sans"
               highlight={true}
               highlightWords={["Computer Science", "web applications"]}
@@ -63,7 +63,7 @@ const AboutSection = () => {
             />
             
             <AnimatedText 
-              text="Currently, I'm focused on building accessible, human-centered products at Billbox AI while pursuing my Bachelor's degree. My goal is to combine technical expertise with creative problem-solving to create impactful solutions."
+              text="Currently, I'm focused on building accessible, human-centered products while pursuing my Bachelor's degree. My goal is to combine technical expertise with creative problem-solving to create impactful solutions."
               className="mb-4 font-sans"
               highlight={true}
               highlightWords={["technical expertise"]}
@@ -71,7 +71,7 @@ const AboutSection = () => {
             />
             
             <AnimatedText
-              text="Beyond coding, I'm actively involved in hackathons, open-source contributions, and technical competitions where I've achieved notable results, including winning SIH 2024."
+              text="Beyond coding, I'm actively involved in hackathons, and technical competitions where I've achieved very high learnings."
               className="font-sans"
               highlight={false}
               delay={900}
@@ -80,10 +80,10 @@ const AboutSection = () => {
             <div className="mt-6 reveal" style={{ transitionDelay: '1100ms' }}>
               <h3 className="text-lg font-mono text-neon-blue mb-3">Education</h3>
               <div className="p-4 bg-tech-800/50 border border-border rounded-lg neon-border card-hover">
-                <h4 className="font-bold font-sans">Indian Institute of Information Technology (IIIT), Pune</h4>
+                <h4 className="font-bold font-sans">GL Bajaj Institute Of Technology And Management</h4>
                 <p className="text-muted-foreground font-sans">Bachelor of Technology in Computer Science and Engineering</p>
                 <div className="flex justify-between mt-2 font-sans">
-                  <span className="text-neon-green">9.41 CGPA</span>
+                  <span className="text-neon-green">8 CGPA</span>
                   <span className="text-gray-400">Nov. 2022 – May 2026</span>
                 </div>
               </div>
@@ -100,7 +100,7 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-tech-800 rounded-lg overflow-hidden">
                 <div className="w-full h-full bg-gradient-to-br from-tech-900 to-tech-700 flex items-center justify-center">
                   {/* Replace with actual image if available */}
-                  <span className="text-6xl font-bold text-gradient font-sans">SK</span>
+                  <span className="text-6xl font-bold text-gradient font-sans">SD</span>
                 </div>
                 
                 {/* Tech pattern overlay */}
@@ -110,7 +110,7 @@ const AboutSection = () => {
                 <pre className="absolute bottom-4 left-4 text-[0.6rem] text-neon-blue opacity-50 font-mono">
                   <code>
                     {`const developer = {
-  name: "Svayam",
+  name: "Shashank",
   skills: ["React", "Node"],
   passion: "Building web apps"
 };`}

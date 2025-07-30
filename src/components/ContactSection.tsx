@@ -123,7 +123,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Phone</p>
-                    <a href="tel:+918320094646" className="interactive-element text-neon-blue hover:underline">+91 8320094646</a>
+                    <a href="tel:+918320094646" className="interactive-element text-neon-blue hover:underline">+91 6307963152</a>
                   </div>
                 </div>
               </AnimatedText>
@@ -142,7 +142,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Email</p>
-                    <a href="mailto:svayamkapadia.work@gmail.com" className="interactive-element text-neon-blue hover:underline">svayamkapadia.work@gmail.com</a>
+                    <a href="mailto:svayamkapadia.work@gmail.com" className="interactive-element text-neon-blue hover:underline">shashankdwivedi615@gmail.com</a>
                   </div>
                 </div>
               </AnimatedText>
@@ -162,7 +162,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Location</p>
-                    <p>Maharashtra, India</p>
+                    <p>Noida, India</p>
                   </div>
                 </div>
               </AnimatedText>
@@ -172,7 +172,7 @@ const ContactSection = () => {
               <h4 className="font-medium mb-4">Connect with me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://www.linkedin.com/in/svayam-kapadia-78218b246/" 
+                  href="https://www.linkedin.com/in/dwivedi-shashank2003/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="interactive-element w-10 h-10 rounded-full bg-tech-700 flex items-center justify-center text-white hover:bg-neon-blue/20 hover:text-neon-blue transition-colors duration-300"
@@ -183,7 +183,7 @@ const ContactSection = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://github.com/K-Svayam05" 
+                  href="https://github.com/itz-shashank" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="interactive-element w-10 h-10 rounded-full bg-tech-700 flex items-center justify-center text-white hover:bg-neon-blue/20 hover:text-neon-blue transition-colors duration-300"
@@ -194,16 +194,16 @@ const ContactSection = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://www.codechef.com/users/svayam_05" 
+                  href="https://www.hackerrank.com/profile/sd601038" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="interactive-element w-10 h-10 rounded-full bg-tech-700 flex items-center justify-center text-white hover:bg-neon-blue/20 hover:text-neon-blue transition-colors duration-300"
-                  aria-label="CodeChef"
+                  aria-label="HackerRank"
                 >
-                  <span className="font-bold text-sm">CC</span>
+                  <span className="font-bold text-sm">HR</span>
                 </a>
                 <a 
-                  href="https://leetcode.com/u/svayam_05/" 
+                  href="https://leetcode.com/u/shashankd0345/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="interactive-element w-10 h-10 rounded-full bg-tech-700 flex items-center justify-center text-white hover:bg-neon-blue/20 hover:text-neon-blue transition-colors duration-300"

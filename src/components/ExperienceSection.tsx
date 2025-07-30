@@ -6,67 +6,67 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const ExperienceSection = () => {
   const experiences = [
     {
-      id: 'nomura',
-      title: 'Chief Data Office Intern',
-      company: 'Nomura',
+      id: 'Devlogs',
+      title: 'Software Developer Intern',
+      company: 'Devlogs',
       link: '#',
-      period: 'June 2025 - Present',
-      location: 'Mumbai, India',
+      period: 'December 2024 - February 2025',
+      location: 'Delhi, India',
       description: [
-        'Specialized in data governance frameworks, implementing comprehensive policies that improved data quality by 35%.',
-        'Developed Python scripts for API calls with Alation and Marquez, automating data catalog management processes.',
-        'Created detailed data lineages mapping complex data flows across enterprise systems, enhancing data traceability by 40%.',
-        'Collaborated with cross-functional teams to establish data governance best practices and compliance standards.'
-      ]
-    },
-    {
-      id: 'billbox',
-      title: 'Software Development Intern',
-      company: 'Billbox AI',
-      link: 'https://billboxa.ai/',
-      period: 'Dec. 2024 - June 2025',
-      location: 'Remote',
-      description: [
-        'Built responsive UI with Framer, boosting mobile engagement by 25% and page speed by 30%.',
-        'Developed cross-platform UI, enhancing user retention by 15% through intuitive navigation and seamless UX.'
-      ]
-    },
-    {
-      id: 'goldman',
-      title: 'Software Engineering Virtual Intern',
-      company: 'Goldman Sachs',
-      link: 'https://drive.google.com/file/d/1WHSFPBoj-LLFX_wQf3ZEq-aJ2sGNtAaP/view',
-      period: 'July 2024 - Aug. 2024',
-      location: 'Virtual',
-      description: [
-        'Implemented cryptographic protocols, reducing system anomalies by 40% and ensuring OWASP compliance.',
-        'Optimized system architecture, improving security performance by 30% through advanced problem-solving.'
-      ]
-    },
-    {
-      id: 'nrg',
-      title: 'AI Market Research Extern',
-      company: 'National Research Group',
-      link: 'https://drive.google.com/file/d/1QuLFh2s7fucTwC0gP0Xl2v8tgRt2nHM-/view',
-      period: 'July 2024 - Aug. 2024',
-      location: 'Remote',
-      description: [
-        'Identified 10+ key policy influencers, shaping NRG\'s $5M R&D strategy and boosting market insights by 20%.',
-        'Synthesized research into actionable reports, cutting analysis time by 25% and enabling data-driven decisions.'
-      ]
-    },
-    {
-      id: 'gssoc',
-      title: 'Open Source Contributor',
-      company: 'GSSoC \'24',
-      link: '#',
-      period: 'May 2024 - Aug. 2024',
-      location: 'Remote',
-      description: [
-        'Contributed to 5+ open-source projects using React.js, Node.js, and MongoDB, improving code efficiency by 20%.',
-        'Resolved 15+ bugs, enhancing front-end features and boosting project usability by 25%.'
+        '"JailMail" is a digital communication platform designed to connect inmates with their families in a secure and user-friendly environment.',
+        'Developed a performant and responsive frontend using React and TypeScript, increasing cross-device compatibility by 100%.',
+        'Improved component rendering efficiency, reducing UI load time by 45%, resulting in faster user interactions and better user retention.',
+        'Collaborated with UI/UX designers to translate over 20+ Figma prototypes into pixel-perfect, responsive UIs using Bootstrap and modern CSS.'
       ]
     }
+    // {
+    //   id: 'billbox',
+    //   title: 'Software Development Intern',
+    //   company: 'Billbox AI',
+    //   link: 'https://billboxa.ai/',
+    //   period: 'Dec. 2024 - June 2025',
+    //   location: 'Remote',
+    //   description: [
+    //     'Built responsive UI with Framer, boosting mobile engagement by 25% and page speed by 30%.',
+    //     'Developed cross-platform UI, enhancing user retention by 15% through intuitive navigation and seamless UX.'
+    //   ]
+    // },
+    // {
+    //   id: 'goldman',
+    //   title: 'Software Engineering Virtual Intern',
+    //   company: 'Goldman Sachs',
+    //   link: 'https://drive.google.com/file/d/1WHSFPBoj-LLFX_wQf3ZEq-aJ2sGNtAaP/view',
+    //   period: 'July 2024 - Aug. 2024',
+    //   location: 'Virtual',
+    //   description: [
+    //     'Implemented cryptographic protocols, reducing system anomalies by 40% and ensuring OWASP compliance.',
+    //     'Optimized system architecture, improving security performance by 30% through advanced problem-solving.'
+    //   ]
+    // },
+    // {
+    //   id: 'nrg',
+    //   title: 'AI Market Research Extern',
+    //   company: 'National Research Group',
+    //   link: 'https://drive.google.com/file/d/1QuLFh2s7fucTwC0gP0Xl2v8tgRt2nHM-/view',
+    //   period: 'July 2024 - Aug. 2024',
+    //   location: 'Remote',
+    //   description: [
+    //     'Identified 10+ key policy influencers, shaping NRG\'s $5M R&D strategy and boosting market insights by 20%.',
+    //     'Synthesized research into actionable reports, cutting analysis time by 25% and enabling data-driven decisions.'
+    //   ]
+    // },
+    // {
+    //   id: 'gssoc',
+    //   title: 'Open Source Contributor',
+    //   company: 'GSSoC \'24',
+    //   link: '#',
+    //   period: 'May 2024 - Aug. 2024',
+    //   location: 'Remote',
+    //   description: [
+    //     'Contributed to 5+ open-source projects using React.js, Node.js, and MongoDB, improving code efficiency by 20%.',
+    //     'Resolved 15+ bugs, enhancing front-end features and boosting project usability by 25%.'
+    //   ]
+    // }
   ];
 
   const [activeTab, setActiveTab] = useState('nomura');

@@ -77,28 +77,22 @@ const ProjectCard = ({
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'Svayam - Learning Ed-Tech Chatbot',
-      description: 'AI-powered educational chatbot that provides personalized answers based on user profile, knowledge level, and understanding, enhancing learning experience.',
-      tech: ['JavaScript', 'TypeScript', 'Python', 'PostgreSQL'],
-      link: '#'
+      title: 'Shakti-A Women Safety App',
+      description: '"Shakti", a full-stack safety application reviewed by over 500+ users, enabling real-time SOS alerts, GPS location sharing, and emergency assistance.',
+      tech: ['JavaScript', 'TypeScript', 'MongoDB', 'Node.js', 'Express.js'],
+      link: 'https://women-safety1.netlify.app/'
     },
     {
-      title: 'Travelling Postman',
-      description: 'AI-driven mail routing solution that won 1st place in SIH 2024, calculating safety indexes for 700+ cities with 98% accuracy.',
-      tech: ['Python', 'Next.js', 'PostgreSQL', 'IBM Watsonx'],
-      link: 'https://travelling-postman-3hl4.vercel.app/'
+      title: 'Chatty-A real-time Chat Application',
+      description: 'A real-time messaging app using MERN stack, Socket.io, and TailwindCSS, achieving sub-second message delivery across 100+ concurrent users.',
+      tech: ['Javasript', 'React.js', 'MongoDB', 'Zustsnd', 'Socket.io'],
+      link: 'https://realtime-chat-app-v7hz.onrender.com/'
     },
     {
-      title: 'Medicine Prescriber',
-      description: 'Java-based prescription system that reduces diagnosis time by 25% and enhances accuracy for up to 10 diseases.',
-      tech: ['Java', 'JavaFX', 'Maven', 'MySQL'],
-      link: 'https://github.com/K-Svayam05/Medicine-Prescriber'
-    },
-    {
-      title: 'Company\'s Profit Prediction Model',
-      description: 'ML model with 96% accuracy for financial forecasting, saving 50+ hours/month in analysis with better decision-making.',
-      tech: ['Python', 'Machine Learning', 'Pandas', 'Scikit-learn'],
-      link: 'https://github.com/K-Svayam05/ML--Company-s-Profit-Prediction/tree/main'
+      title: 'Ai Coder',
+      description: 'AI-powered code review tool that analyzes and provides intelligent feedback on code in 10+ programming languages.',
+      tech: ['React.js', 'MongoDB', 'NOde.js', 'Express.js', 'OpenAI API'],
+      link: 'https://github.com/itz-shashank/ai-code-review'
     }
   ];
 
@@ -132,7 +126,7 @@ const ProjectsSection = () => {
         
         <div className="mt-12 text-center">
           <a 
-            href="https://github.com/K-Svayam05" 
+            href="https://github.com/itz-shashank" 
             target="_blank" 
             rel="noopener noreferrer"
             className="interactive-element inline-flex items-center gap-2 px-6 py-3 border border-neon-blue text-neon-blue rounded-md hover:bg-neon-blue/10 transition-all duration-300"

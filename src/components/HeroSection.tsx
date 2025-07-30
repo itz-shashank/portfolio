@@ -71,8 +71,8 @@ const HeroSection = () => {
           
           <div className="overflow-hidden mb-4">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-text-reveal" style={{ animationDelay: '200ms' }}>
-              <span className="text-white">Svayam </span>
-              <span className="text-gradient">Kapadia</span>
+              <span className="text-white">Shashank </span>
+              <span className="text-gradient">Dwivedi</span>
             </h1>
           </div>
           

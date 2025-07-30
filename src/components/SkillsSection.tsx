@@ -28,7 +28,7 @@ const SkillsSection = () => {
         { name: 'JavaScript/TypeScript', level: 95 },
         { name: 'Python', level: 90 },
         { name: 'Java', level: 85 },
-        { name: 'C/C++', level: 80 },
+        { name: 'C', level: 80 },
         { name: 'SQL', level: 85 },
         { name: 'HTML/CSS', level: 95 },
       ]
@@ -41,8 +41,7 @@ const SkillsSection = () => {
         { name: 'Next.js', level: 90 },
         { name: 'Node.js', level: 85 },
         { name: 'Express.js', level: 85 },
-        { name: 'TensorFlow', level: 75 },
-        { name: 'PyTorch', level: 70 },
+        { name: 'Bootstrap', level: 80 }
       ]
     },
     {
@@ -50,10 +49,9 @@ const SkillsSection = () => {
       title: 'Tools & Databases',
       skills: [
         { name: 'MongoDB', level: 88 },
-        { name: 'PostgreSQL', level: 85 },
         { name: 'Git/GitHub', level: 92 },
-        { name: 'AWS/GCP', level: 80 },
-        { name: 'Framer', level: 85 },
+        { name: 'Netlify', level: 80 },
+        { name: 'Render', level: 85 },
         { name: 'Postman', level: 90 },
       ]
     },
@@ -62,8 +60,6 @@ const SkillsSection = () => {
       title: 'Emerging Tech',
       skills: [
         { name: 'Generative AI (LLMs)', level: 88 },
-        { name: 'Blockchain', level: 70 },
-        { name: 'Quantum Computing', level: 65 },
         { name: 'AI Agents', level: 80 },
         { name: 'Cybersecurity', level: 75 },
       ]
@@ -71,11 +67,10 @@ const SkillsSection = () => {
   ];
 
   const achievements = [
-    { title: 'Gold Level', description: 'WorldQuant University' },
-    { title: 'AIR-4', description: 'Naukri Campus EROH \'25' },
-    { title: 'Winner', description: 'SIH 2024' },
-    { title: 'Semifinalist', description: 'Tata Imagination Challenge \'24' },
-    { title: 'Global Rank 87', description: 'CodeChef Starters 148' },
+    { title: 'Cloud Virtual Internship', description: 'AWS Academy' },
+    { title: 'Cybersecurity Certification', description: 'By Cisco' },
+    { title: 'Leetcode', description: '400+ solved problems' },
+  
   ];
 
   return (
@@ -169,15 +164,7 @@ const SkillsSection = () => {
                 <h4 className="font-bold mb-3">Coding Profiles</h4>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://www.codechef.com/users/svayam_05"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="interactive-element px-4 py-2 bg-tech-700 rounded-md text-sm hover:bg-tech-600 transition-colors duration-300"
-                  >
-                    CodeChef
-                  </a>
-                  <a
-                    href="https://leetcode.com/u/svayam_05/"
+                    href="https://leetcode.com/u/shashankd0345/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="interactive-element px-4 py-2 bg-tech-700 rounded-md text-sm hover:bg-tech-600 transition-colors duration-300"
@@ -185,12 +172,12 @@ const SkillsSection = () => {
                     LeetCode
                   </a>
                   <a
-                    href="https://codeforces.com/profile/svayam.005"
+                    href="https://www.hackerrank.com/profile/sd601038"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="interactive-element px-4 py-2 bg-tech-700 rounded-md text-sm hover:bg-tech-600 transition-colors duration-300"
                   >
-                    Codeforces
+                    HackerRank
                   </a>
                 </div>
               </div>
@@ -216,10 +203,9 @@ const SkillsSection = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              'Introduction to LLMs (Google Cloud)',
-              'Full Stack Web Development (Skill India NSDC)',
-              'Introduction to AI Fundamentals (IBM & Coursera)',
-              'CyberSecurity (ADBI E-Learning)'
+              'Cloud Virtual Internship (AWS Academy)',
+              '5 * at Hackerrank',
+              'CCNA, CyberSecurity (Cisco)',
             ].map((cert, index) => (
               <AnimatedText 
                 key={index} 

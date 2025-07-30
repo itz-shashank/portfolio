@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://svayam-kapadia-portfolio.vercel.app/
+**URL**: 
 
 ## How can I edit this code?
 
