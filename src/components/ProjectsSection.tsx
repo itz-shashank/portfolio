@@ -93,6 +93,12 @@ const ProjectsSection = () => {
       description: 'AI-powered code review tool that analyzes and provides intelligent feedback on code in 10+ programming languages.',
       tech: ['React.js', 'MongoDB', 'NOde.js', 'Express.js', 'OpenAI API'],
       link: 'https://github.com/itz-shashank/ai-code-review'
+    },
+    {
+      title: 'Smart Waste Management System',
+      description: 'A smart waste management system that uses IoT sensors to monitor waste levels in bins, optimizing collection routes and schedules.',
+      tech: ['HTML', 'CSS', 'Javascript'],
+      link: 'https://itz-shashank.github.io/waste-management/index.html'
     }
   ];
 
